@@ -16,7 +16,6 @@ def main():
 	+---------+/    +---------+/
 	   {player_1}            {player_2}
 	""")
-	print(carrot)
 	peer = input("Заглядываем в коробку? Y\n >:").upper()
 	if peer == "Y":
 		print("carrot!") if carrot == 0 else print("empty!")
